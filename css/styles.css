@@ -2,7 +2,10 @@
     width: 50px !important;
     
 }
-.carousel{
+.nav{
+    margin-bottom: 200px !important;
+}
+.carousel-inner{
     margin-top: 120px !important;
 }
 .carousel-inner {
