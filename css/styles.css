@@ -1,9 +1,12 @@
 #nav  img {
     width: 50px !important;
+    
 }
-
-.carrusel-banner{
-    margin-top: 120px;
+.carousel{
+    margin-top: 120px !important;
+}
+.carousel-inner {
+    max-height:36rem !important;
 }
 .card img{
     border-radius: 20px !important;
