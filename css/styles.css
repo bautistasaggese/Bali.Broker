@@ -47,6 +47,17 @@
     display: flex;
     align-items: center;
     padding: 20px;
+    background-color: rgb(219, 219, 219) !important;
+    border: none !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 20px !important;
+}
+.body3 .card{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
     background-color: rgb(55, 139, 160) !important;
     border: none !important;
     margin-top: 30px !important;
@@ -55,4 +66,20 @@
 }
 .tipo-info{
     margin-left: 5px;
+}
+.redes-inicio{
+    font-size: 20px;
+    margin-top: 100px;
+}
+.ig{
+    text-align: start;
+}
+.wpp{
+    text-align: end;
+}
+.ig a{
+    text-decoration: none !important;
+}
+.wpp a{
+    text-decoration: none !important;
 }
