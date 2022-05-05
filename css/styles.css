@@ -15,7 +15,7 @@
     border-radius: 20px !important;
 }
 .btn{
-    color: white;
+    
     background-color:rgb(55, 139, 160) ;
 }
 .card{
@@ -33,4 +33,17 @@
 }
 .automovil {
     margin-top: 60px;
+}
+footer{
+    padding: 5px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+footer img{
+    width: 50px;
+}
+footer a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
