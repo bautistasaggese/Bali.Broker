@@ -72,10 +72,12 @@
     margin-top: 100px;
 }
 .ig{
-    text-align: start;
+    padding: 5px;
+    text-align: center;
 }
 .wpp{
-    text-align: end;
+    padding: 5px;
+    text-align: center;
 }
 .ig a{
     text-decoration: none !important;
