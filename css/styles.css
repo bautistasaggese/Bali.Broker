@@ -18,7 +18,7 @@
     
     background-color:rgb(55, 139, 160) ;
 }
-.card{
+.body .card{
     padding: 20px;
     background-color: rgb(55, 139, 160) !important;
     border: none !important;
@@ -28,29 +28,31 @@
     margin-bottom: 30px !important;
     border-radius: 20px !important;
 }
-.card p{
+.body > .card > p{
     color: white !important;
 }
 .automovil {
     margin-top: 60px;
 }
-footer{
-    padding: 5px;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
-}
-footer img{
-    width: 50px;
-}
-footer a{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
+
 .servicios{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .servicios h1{
     font-size: 43px !important;
+}
+.body2 .card{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(55, 139, 160) !important;
+    border: none !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 20px !important;
+}
+.tipo-info{
+    margin-left: 10px;
 }
