@@ -43,9 +43,6 @@
     font-size: 43px !important;
 }
 .body2 .card{
-    display: flex;
-    align-items: center;
-    padding: 20px;
     background-color: rgb(219, 219, 219) !important;
     border: none !important;
     margin-top: 30px !important;
@@ -89,7 +86,8 @@
 footer{
     
     background-color: rgb(82, 82, 82) !important;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 footer a{
     text-decoration: none !important;
