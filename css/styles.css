@@ -18,18 +18,19 @@
     
     background-color:rgb(55, 139, 160) ;
 }
-.body .card{
-    padding: 20px;
-    background-color: rgb(55, 139, 160) !important;
-    border: none !important;
-    margin-left: 40px !important;
-    margin-right: 40px !important;
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-    border-radius: 20px !important;
-}
-.body > .card > p{
+
+.tarjetas > .card > p{
     color: white !important;
+}
+.tarjetas .card{
+        padding: 20px;
+        background-color: rgb(55, 139, 160) !important;
+        border: none !important;
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        border-radius: 20px !important;
 }
 .automovil {
     margin-top: 60px;
@@ -42,13 +43,7 @@
 .servicios h1{
     font-size: 43px !important;
 }
-.body2 .card{
-    background-color: rgb(219, 219, 219) !important;
-    border: none !important;
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
-    border-radius: 20px !important;
-}
+
 .body3 .card{
     margin-left: 5px;
     display: flex;
@@ -90,4 +85,14 @@ footer{
 }
 footer a{
     text-decoration: none !important;
+}
+.servi-info .card{
+    display: flex;
+    align-items: center;
+    background-color: rgb(219, 219, 219) !important;
+    border: none !important;
+    padding: 10px;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 20px !important;
 }
