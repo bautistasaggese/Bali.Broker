@@ -1,0 +1,101 @@
+$color-wpp: rgb(55, 139, 160);
+$color-footer:  rgb(82, 82, 82);
+$color-info-gris: rgb(219, 219, 219);
+#nav  img {
+    width: 50px !important;
+    
+}
+.nav{
+    margin-bottom: 200px !important;
+}
+.carousel-inner{
+    margin-top: 77px !important;
+}
+.carousel-inner {
+    max-height:36rem !important;
+}
+.card img{
+    border-radius: 20px !important;
+}
+.btn{
+    
+    background-color:$color-wpp ;
+}
+
+.tarjetas > .card > p{
+    color: white !important;
+}
+.tarjetas .card{
+        padding: 20px;
+        background-color: $color-wpp !important;
+        border: none !important;
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        border-radius: 20px !important;
+}
+.automovil {
+    margin-top: 60px;
+}
+
+.servicios{
+    display: flex;
+    justify-content: left;
+}
+.servicios h1{
+    font-size: 43px !important;
+}
+
+.body3 .card{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: $color-wpp!important;
+    border: none !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 20px !important;
+}
+.tipo-info{
+    margin-left: 5px;
+}
+.redes-inicio{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.ig{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.wpp{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.ig a{
+    text-decoration: none !important;
+}
+.wpp a{
+    text-decoration: none !important;
+}
+footer{
+    background-color: $color-footer !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer a{
+    text-decoration: none !important;
+}
+.servi-info .card{
+    display: flex;
+    align-items: center;
+    background-color: $color-info-gris !important;
+    border: none !important;
+    padding: 10px;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    border-radius: 20px !important;
+}
