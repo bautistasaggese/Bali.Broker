@@ -4,6 +4,17 @@ $color-info-gris: rgb(219, 219, 219);
 *{
     margin: 0%;
 }
+.contacto{
+    h2{
+        margin-top: 100px !important;
+    }
+    form{
+        margin-bottom: 50px;
+    }
+    footer{
+        margin-top: 30px;
+    }
+}
 #nav  img {
     width: 50px !important;
     

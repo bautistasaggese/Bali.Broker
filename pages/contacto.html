@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>Bali Seguros</title>
 </head>
-<body>
-<main class="container-fluid">
+<body class="contacto">
+<main class="row container-fluid d-flex justify-content-center">
     <!-- nav -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow mb-5">
     <div class="container-fluid" id="nav">
@@ -35,10 +35,54 @@
     </div>
   </nav>
   <!-- formulario -->
-  
+  <div class="col-12">
+      <h2 class="mt-5 text-center">¡Dejenos sus dudas y nos contactaremos en la brevedad!</h2>
+  </div>
+  <div style="width:80%;" class="col-12 d-flex justify-content-center my-5">
+      <form id="form1" method="post" action="enviar.php" >
+        <label>Nombre Completo</label>
+        <input type="text" name="nombre" class="form-control" required>
+        <label>Numero Telefonico</label>
+        <input type="tel" name="telefono" placeholder="(Código de área)" class="form-control" required>
+        <label>Que tipo de seguro desea consultar</label>
+        <select name="area" class="form-control">
+            <option value="ing">vehículos</option>
+            <option value="ing">Combinados Familiares</option>
+            <option value="ing">Comercios</option>
+        </select>
+        <label>Area en la que asegura</label>
+        <select name="area" class="form-control">
+            <option value="ing">Ciudad Autónoma de Buenos Aires</option>
+            <option value="ing">Buenos Aires</option>
+            <option value="ing">Catamarca</option>
+            <option value="ing">Chaco</option>
+            <option value="ing">Chubut</option>
+            <option value="ing">Córdoba</option>
+            <option value="ing">Corrientes</option>
+            <option value="ing">Entre Ríos</option>
+            <option value="ing">Formosa</option>
+            <option value="ing">Jujuy</option>
+            <option value="ing">La Pampa</option>
+            <option value="ing">La Rioja</option>
+            <option value="ing">Mendoza</option>
+            <option value="ing">Misiones</option>
+            <option value="ing">Neuquén</option>
+            <option value="ing">Río Negro</option>
+            <option value="ing">Salta</option>
+            <option value="ing">San Juan</option>
+            <option value="ing">San Luis</option>
+            <option value="ing">Santa Cruz</option>
+            <option value="ing">Santa Fe</option>
+            <option value="ing">Santiago del Estero</option>
+            <option value="ing">Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+            <option value="ing">Tucumán</option>
+        </select>
+        <button type="submit" class="border mt-3">Enviar </button>
+      </form>
+  </div>
     </main>
     <!-- footer -->
-    <footer class="footer container-fluid"> 
+    <footer class="footer container-fluid fixed-bottom"> 
       <section class="row text-center">
         <section class="col-4">
           <a href="https://wa.me/message/4URR6VVIW44WB1" target="_blank" class="text-light "><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
