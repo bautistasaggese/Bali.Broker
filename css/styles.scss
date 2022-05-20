@@ -96,6 +96,10 @@ $color-info-gris: rgb(219, 219, 219);
     text-decoration: none !important;
 }
 footer{
+    p{
+        font-size: 18px;
+    }
+    margin-top: 15px!important;
     background-color: $color-footer !important;
     padding-top: 30px;
     padding-bottom: 30px;
